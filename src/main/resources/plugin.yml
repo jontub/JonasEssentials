@@ -1,0 +1,35 @@
+name: JonasEssentials
+version: '1.0'
+main: de.jonas3d.jonasEssentials.JonasEssentials
+api-version: '1.21'
+authors: [ Jonas_FRZ ]
+description: Plugin that has many Commands that can be usefull
+license: AGPL-3.0
+commands:
+  sethealth:
+    usage: /<command> [<health>]
+    permission: jonasessentials.sethealth
+  jonasessentials:
+    usage: /<command>
+    aliases: essenials
+    description: Hi
+  instadeath:
+    usage: /<command>
+    permission: jonasessentials.instadeathtoggle
+    description: Toggles instant death on damage
+  fly:
+    usage: /<command> [<player>]
+    permission: jonasessentials.fly
+    description: Toggles Fly For the Playerfr
+  sudo:
+    permission: jonasessentials.sudo
+    usage: /<command> <player> </command|message>
+    description: Make a player say something or exeucute a command
+  smite:
+    permission: jonasessentials.smite
+    usage: /<command> <player>
+    description: Summon a thunder on the player
+  killall:
+    permission: jonasessentials.killall
+    usage: /<command> <type>
+    description: Kill all entitys
